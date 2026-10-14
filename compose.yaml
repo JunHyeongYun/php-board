@@ -4,9 +4,11 @@ services:
       context: .
       dockerfile: Dockerfile
     container_name: php-board-container
-    #network_mode: "host"
+    network_mode: "host"
     volumes:
       - ./src:/var/www/html
+    ports:
+      -"127.0.0.1:9000:9000"
     extra_hosts:
       - "host.docker.internal:host-gateway"
 
