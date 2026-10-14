@@ -10,7 +10,7 @@
     // $password = '123456';
 
     // 실서버용
-    $host = '127.0.0.1';
+    $host = 'host.docker.internal';
     $port = '3306';
     $dbname = 'board';
     $username = 'jun';
