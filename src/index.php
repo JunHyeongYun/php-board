@@ -43,7 +43,7 @@
             exit;
         }
     }
-
+    // ddd
     if (isset($_GET['delete'])) {
         $id = (int)$_GET['delete'];
 
