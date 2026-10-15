@@ -10,7 +10,7 @@
     // $password = '123456';
 
     // 실서버용
-    $host = '127.0.0.1';
+    $host = '172.17.0.1'; // 반드시 ip addr show 해서 확인해볼것!! 
     $port = '3306';
     $dbname = 'board';
     $username = 'jun';

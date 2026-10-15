@@ -4,7 +4,6 @@ services:
       context: .
       dockerfile: Dockerfile
     container_name: php-board-container
-    network_mode: "host"
     volumes:
       - ./src:/var/www/html
     extra_hosts:
